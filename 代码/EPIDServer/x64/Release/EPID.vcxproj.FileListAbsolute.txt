@@ -1,0 +1,5 @@
+E:\Desktop\EPID\x64\Release\EPID.exe
+E:\Desktop\safeEPID\EPID\x64\Release\EPID.exe
+E:\Desktop\safeEPID\Server\x64\Release\EPID.exe
+E:\Desktop\safeEPID\EPIDServer\x64\Release\EPID.exe
+C:\Users\13247\Desktop\safeEPID\EPIDServer\x64\Release\EPID.exe

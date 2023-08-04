@@ -1,0 +1,35 @@
+﻿  HiCanvas.cpp
+  HiContainer.cpp
+  HiDrawingProperty.cpp
+  HiFPS.cpp
+  HiFunc.cpp
+  HiGdiplus.cpp
+  HiGif.cpp
+  Button.cpp
+  ControlBase.cpp
+  Page.cpp
+  ProgressCtrl.cpp
+  ScrollBar.cpp
+  Static.cpp
+  HiIcon.cpp
+  HiMouseDrag.cpp
+  HiMusicMCI.cpp
+  HiStart.cpp
+  SysButton.cpp
+  SysCheckBox.cpp
+  SysComboBox.cpp
+  正在编译...
+  SysControlBase.cpp
+  SysEdit.cpp
+  SysGroup.cpp
+  SysGroupBox.cpp
+  SysRadioButton.cpp
+  SysStatic.cpp
+  HiWindow.cpp
+  正在生成代码
+E:\Desktop\Picnic-master\MemberProof.c(2018): warning C4716: “GetZinterTape”: 必须返回一个值
+  940 of 961 functions (97.8%) were compiled, the rest were copied from previous compilation.
+    702 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  EPID.vcxproj -> C:\Users\13247\Desktop\safeEPID\EPIDServer\x64\Release\EPID.exe

@@ -1,0 +1,4 @@
+﻿  picnic_impl.c
+C:\Users\13247\Desktop\信安赛\code\Picnic-master\picnic_impl.c(246,31): warning C4133: “函数”: 从“uint32_t *”到“const uint8_t *”的类型不兼容
+C:\Users\13247\Desktop\信安赛\code\Picnic-master\picnic_impl.c(745,73): warning C4267: “函数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+  libpicnic.vcxproj -> C:\Users\13247\Desktop\信安赛\code\Picnic-master\VisualStudio\x64\Release\libpicnic\libpicnic.lib

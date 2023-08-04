@@ -1,0 +1,53 @@
+﻿  HiCanvas.cpp
+  HiContainer.cpp
+  HiDrawingProperty.cpp
+  HiFPS.cpp
+  HiFunc.cpp
+  HiGdiplus.cpp
+  HiGif.cpp
+  Button.cpp
+  ControlBase.cpp
+  Page.cpp
+  ProgressCtrl.cpp
+  ScrollBar.cpp
+  Static.cpp
+  HiIcon.cpp
+  HiMouseDrag.cpp
+  HiMusicMCI.cpp
+  HiStart.cpp
+  SysButton.cpp
+  SysCheckBox.cpp
+  SysComboBox.cpp
+  正在生成代码...
+  正在编译...
+  SysControlBase.cpp
+  SysEdit.cpp
+  SysGroup.cpp
+  SysGroupBox.cpp
+  SysRadioButton.cpp
+  SysStatic.cpp
+  HiWindow.cpp
+  正在生成代码...
+  server.cpp
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(43,78): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(45,72): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(59,72): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(61,67): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(115,34): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(136,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(279,79): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(286,79): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(291,79): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(199,56): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(210,46): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(277,10): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(284,10): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(321,10): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\server.cpp(235,11): warning C4101: “bytesReceived”: 未引用的局部变量
+  EPID.lib(tools.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  正在生成代码
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\Picnic-master\MemberProof.c(2018): warning C4716: “GetZinterTape”: 必须返回一个值
+  已完成代码的生成
+  EPID.vcxproj -> C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\EPIDServer\x64\Debug\EPID.exe

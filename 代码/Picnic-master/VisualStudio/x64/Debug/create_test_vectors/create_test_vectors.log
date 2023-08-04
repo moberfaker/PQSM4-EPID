@@ -1,0 +1,2 @@
+﻿  create_test_vectors.c
+LINK : fatal error LNK1104: 无法打开文件“E:\Desktop\Picnic-master\VisualStudio\x64\Debug\libpicnic\libpicnic.lib”

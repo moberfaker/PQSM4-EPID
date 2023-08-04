@@ -1,0 +1,42 @@
+﻿  cilent.cpp
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电认证方案\code\EPIDCilent\cilent.cpp(40,78): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电认证方案\code\EPIDCilent\cilent.cpp(42,72): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电认证方案\code\EPIDCilent\cilent.cpp(140,65): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电认证方案\code\EPIDCilent\cilent.cpp(149,65): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电认证方案\code\EPIDCilent\cilent.cpp(161,65): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电认证方案\code\EPIDCilent\cilent.cpp(198,77): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电认证方案\code\EPIDCilent\cilent.cpp(239,66): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  HiCanvas.cpp
+  HiContainer.cpp
+  HiDrawingProperty.cpp
+  HiFPS.cpp
+  HiFunc.cpp
+  HiGdiplus.cpp
+  HiGif.cpp
+  Button.cpp
+  ControlBase.cpp
+  Page.cpp
+  ProgressCtrl.cpp
+  ScrollBar.cpp
+  Static.cpp
+  HiIcon.cpp
+  HiMouseDrag.cpp
+  HiMusicMCI.cpp
+  HiStart.cpp
+  SysButton.cpp
+  SysCheckBox.cpp
+  正在编译...
+  SysComboBox.cpp
+  SysControlBase.cpp
+  SysEdit.cpp
+  SysGroup.cpp
+  SysGroupBox.cpp
+  SysRadioButton.cpp
+  SysStatic.cpp
+  HiWindow.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电方案\code\Picnic-master\MemberProof.c(2018): warning C4716: “GetZinterTape”: 必须返回一个值
+  All 965 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  EPID.vcxproj -> C:\Users\13247\Desktop\基于后量子隐私增强保护的电动汽车充电认证方案\code\EPIDCilent\x64\Release\EPID.exe
