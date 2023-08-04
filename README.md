@@ -80,15 +80,15 @@ $$
 
 ###### PQSM4签名长度优化(单位KB)
 
-`> ![PQSM4签名长度优化(单位KB)](picture/PQSM4签名长度优化.jpg "PQSM4签名长度优化")`
+> ![PQSM4签名长度优化(单位KB)](picture/PQSM4签名长度优化.jpg "PQSM4签名长度优化")
 
 ###### PQSM4签名时间优化(单位ms)
 
-`> ![PQSM4签名时间优化(单位ms)](picture/PQSM4签名时间优化.jpg "PQSM4签名时间优化")`
+> ![PQSM4签名时间优化(单位ms)](picture/PQSM4签名时间优化.jpg "PQSM4签名时间优化")
 
 ###### PQSM4验证时间优化(单位ms)
 
-`> ![PQSM4验证时间优化(单位ms)](picture/PQSM4验证时间优化.jpg "PQSM4验证时间优化")`> <div id="refer-anchor-1"></div>
+> ![PQSM4验证时间优化(单位ms)](picture/PQSM4验证时间优化.jpg "PQSM4验证时间优化")
 
 ### 2. PQSM4-EPID框架设计优化及代码实现
 
@@ -108,17 +108,16 @@ $$
 
 ###### PQSM4-EPID签名长度与成员大小关系(单位KB)
 
-`>  ![PQSM4-EPID签名长度与成员大小关系(单位KB)](picture/PQSM4-EPID签名长度与成员大小关系.jpg "PQSM4-EPID签名长度与成员大小关系")`
+>  ![PQSM4-EPID签名长度与成员大小关系(单位KB)](picture/PQSM4-EPID签名长度与成员大小关系.jpg "PQSM4-EPID签名长度与成员大小关系")
 
 ###### PQSM4-EPID签名时间与成员大小关系(单位ms)
 
-`>  ![PQSM4-EPID签名时间与成员大小关系(单位ms)](picture/PQSM4-EPID签名时间与成员大小关系.jpg "PQSM4-EPID签名时间与成员大小关系")`
+>  ![PQSM4-EPID签名时间与成员大小关系(单位ms)](picture/PQSM4-EPID签名时间与成员大小关系.jpg "PQSM4-EPID签名时间与成员大小关系")
 
 ###### PQSM4-EPID验证时间与成员大小关系(单位ms)
 
-`>  ![PQSM4-EPID验证时间与成员大小关系(单位ms)](picture/PQSM4-EPID验证时间与成员大小关系.jpg "PQSM4-EPID验证时间与成员大小关系")`>
+>  ![PQSM4-EPID验证时间与成员大小关系(单位ms)](picture/PQSM4-EPID验证时间与成员大小关系.jpg "PQSM4-EPID验证时间与成员大小关系")
 
-<div id="refer-anchor-1"></div>
 
 ### 3. 充电桩认证交互协议框架和代码实现
 
@@ -128,9 +127,9 @@ $$
 
 电动汽车在请求充电服务时，首先生成充电请求，发送给充电站，充电站检查本地是否存有该车所在的群和群公钥，若没有，向充电服务提供商请求这些信息，获取对应群和群公钥后，充电站对不会暴露任何车身份的情况下电动汽车的身份进行验证，通过充电站的验证后，电动汽车将自己的充电请求消息用临时会话密钥加密后发送给充电站，获取充电服务。
 
->  ![协议框架](picture/协议框架.jpg "协议框架")>
+>  ![协议框架](picture/协议框架.jpg "协议框架")
 
-> ![认证方案运行模式](picture/认证方案运行模式.jpg "认证方案运行模式)>
+> ![认证方案运行模式](picture/认证方案运行模式.jpg "认证方案运行模式)
 
 #### 网络传输框架
 
@@ -143,6 +142,8 @@ $$
 见code文件下README.md
 
 ## 引用
+
+<div id="refer-anchor-1"></div>
 
 ###### [1] Cryptanalysis of Full LowMC and LowMC-M with Algebraic Techniques
 
