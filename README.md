@@ -78,39 +78,19 @@ $$
 
 </center>
 
+##### PQSM4签名长度优化(单位KB)：
 
 > ![PQSM4签名长度优化(单位KB)](picture/PQSM4签名长度优化.jpg "PQSM4签名长度优化")
 
-<center>
-
-###### PQSM4签名长度优化(单位KB)
-
-</center>
+##### PQSM4签名时间优化(单位ms)：
 
 > ![PQSM4签名时间优化(单位ms)](picture/PQSM4签名时间优化.jpg "PQSM4签名时间优化")
 
-<center>
-
-###### PQSM4签名时间优化(单位ms)
-
-</center>
-
-> ![PQSM4签名长度优化(单位KB)](picture/PQSM4签名长度优化.jpg "PQSM4签名长度优化")
-
-##### PQSM4签名时间优化(单位ms)
-
-> ![PQSM4签名时间优化(单位ms)](picture/PQSM4签名时间优化.jpg "PQSM4签名时间优化")
-
-##### PQSM4验证时间优化(单位ms)
-
+##### PQSM4验证时间优化(单位ms)：
 
 > ![PQSM4验证时间优化(单位ms)](picture/PQSM4验证时间优化.jpg "PQSM4验证时间优化")
 
-<center>
 
-###### PQSM4验证时间优化(单位ms)
-
-</center>
 
 ### 2. PQSM4-EPID框架设计优化及代码实现
 
@@ -128,13 +108,9 @@ $$
 
 我们的方案应用了我们自主设计的基于SM4的后量子签名算法PQSM4来构建基于One-Out-of-N-Proof的累加器方案，在具体实例化中，由于该模式下的累加器为线性表的结构，且累加器内的所有成员证书被直接作为成员证明的输出，故而只需要群成员自主更新官方维护的成员承诺列表(累加器)即可。节省了服务端的交互成本。
 
+##### One-Out-of-N-Proof结构图：
+
 > ![one-out-of-n-proof结构图](picture/one-out-of-n-proof结构图.jpg "one-out-of-n-proof结构图")
-
-<center>
-
-###### One-Out-of-N-Proof结构图
-
-</center>
 
 其次，由于公钥的合法性直接由官方维护的累加器中可以得知（累加器可以动态删减不合法的成员），故而在所有的验证环节中，对于KeyRL的检查可以删去。减少了验证成本和交互成本。
 
@@ -144,35 +120,24 @@ $$
 
 我们通过对SM4使用Resumable HVZK Pok的技术优化了Proof大小[[9]](#refer-anchor-9)。通过对SM4可提取轮数的研究，成功将PQSM4签名模拟器的电路轮数由32轮降低至4轮，具体原理如下图：
 
+##### Resumable HVZK Pok结构图：
+
 > ![ResumableHVZKPok](picture/ResumableHVZKPok.jpg "ResumableHVZKPok结构图")
-
-<center>
-
-###### Resumable HVZK Pok结构图
-
-</center>
 
 相较于Dan Boneh等人提出的原EPID框架，本作品更加适用于小范围的物联网应用场景。在同样的密码学原语基础上，我们的方案具有相对更短的证明大小和验证时间、更加简洁的交互过程和更强的成员隐私性。
 
-##### PQSM4-EPID签名长度与成员大小关系(单位KB)
+#### PQSM4-EPID签名长度与成员大小关系(单位KB)：
 
-</center>
+> ![PQSM4-EPID签名长度与成员大小关系(单位KB)](picture/PQSM4-EPID签名长度与成员大小关系.jpg "PQSM4-EPID签名长度与成员大小关系")
+
+#### PQSM4-EPID签名时间与成员大小关系(单位ms)：
 
 > ![PQSM4-EPID签名时间与成员大小关系(单位ms)](picture/PQSM4-EPID签名时间与成员大小关系.jpg "PQSM4-EPID签名时间与成员大小关系")
 
-<center>
-
-##### PQSM4-EPID签名时间与成员大小关系(单位ms)
-
-</center>
+#### PQSM4-EPID验证时间与成员大小关系(单位ms)：
 
 > ![PQSM4-EPID验证时间与成员大小关系(单位ms)](picture/PQSM4-EPID验证时间与成员大小关系.jpg "PQSM4-EPID验证时间与成员大小关系")
 
-<center>
-
-##### PQSM4-EPID验证时间与成员大小关系(单位ms)
-
-</center>
 
 ### 3. 充电桩认证交互协议框架和代码实现
 
@@ -182,43 +147,27 @@ $$
 
 电动汽车在请求充电服务时，首先生成充电请求，发送给充电站，充电站检查本地是否存有该车所在的群和群公钥，若没有，向充电服务提供商请求这些信息，获取对应群和群公钥后，充电站对不会暴露任何车身份的情况下电动汽车的身份进行验证，通过充电站的验证后，电动汽车将自己的充电请求消息用临时会话密钥加密后发送给充电站，获取充电服务。
 
+#### 协议框架：
+
 > ![协议框架](picture/协议框架.jpg "协议框架")
 
-<center>
-
-###### 协议框架
-
-</center>
+#### 认证方案运行模式:
 
 > ![认证方案运行模式](picture/认证方案运行模式.png "认证方案运行模式")
 
-<center>
-
-###### 认证方案运行模式
-
-</center>
 
 #### 3.2 网络传输框架
 
 我们通过c++的winSock2.h库实现网络信息传输功能，使用EasyX库构建ui交互界面。下图为TCP框架设计图：
 
+#### TCP框架:
+
 > ![TCP框架](picture/TCP框架图.jpg "TCP框架")
 
-<center>
-
-###### TCP框架
-
-</center>
 
 下图为ui展示：
 
 > ![ui](picture/ui.png "ui")
-
-<center>
-
-###### ui设计
-
-</center>
 
 ### 4. 代码说明
 
