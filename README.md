@@ -78,7 +78,7 @@ $$
 
 </center>
 
-<<<<<<< HEAD
+
 > ![PQSM4签名长度优化(单位KB)](picture/PQSM4签名长度优化.jpg "PQSM4签名长度优化")
 
 <center>
@@ -94,8 +94,6 @@ $$
 ###### PQSM4签名时间优化(单位ms)
 
 </center>
-=======
-##### PQSM4签名长度优化(单位KB)
 
 > ![PQSM4签名长度优化(单位KB)](picture/PQSM4签名长度优化.jpg "PQSM4签名长度优化")
 
@@ -104,7 +102,7 @@ $$
 > ![PQSM4签名时间优化(单位ms)](picture/PQSM4签名时间优化.jpg "PQSM4签名时间优化")
 
 ##### PQSM4验证时间优化(单位ms)
->>>>>>> aba18c13fab30d5b0e6e68db8ed27f8b9df14003
+
 
 > ![PQSM4验证时间优化(单位ms)](picture/PQSM4验证时间优化.jpg "PQSM4验证时间优化")
 
@@ -156,15 +154,7 @@ $$
 
 相较于Dan Boneh等人提出的原EPID框架，本作品更加适用于小范围的物联网应用场景。在同样的密码学原语基础上，我们的方案具有相对更短的证明大小和验证时间、更加简洁的交互过程和更强的成员隐私性。
 
-<<<<<<< HEAD
-> ![PQSM4-EPID签名长度与成员大小关系(单位KB)](picture/PQSM4-EPID签名长度与成员大小关系.jpg "PQSM4-EPID签名长度与成员大小关系")
-
-<center>
-
-###### PQSM4-EPID签名长度与成员大小关系(单位KB)
-=======
 ##### PQSM4-EPID签名长度与成员大小关系(单位KB)
->>>>>>> aba18c13fab30d5b0e6e68db8ed27f8b9df14003
 
 </center>
 
@@ -194,7 +184,6 @@ $$
 
 > ![协议框架](picture/协议框架.jpg "协议框架")
 
-<<<<<<< HEAD
 <center>
 
 ###### 协议框架
@@ -202,9 +191,6 @@ $$
 </center>
 
 > ![认证方案运行模式](picture/认证方案运行模式.jpg "认证方案运行模式")
-=======
-> ![认证方案运行模式](picture/认证方案运行模式.png "认证方案运行模式")
->>>>>>> aba18c13fab30d5b0e6e68db8ed27f8b9df14003
 
 <center>
 
@@ -226,7 +212,7 @@ $$
 
 下图为ui展示：
 
-> ![ui](picture/ui.jpg "ui")
+> ![ui](picture/ui.png "ui")
 
 <center>
 
@@ -241,22 +227,30 @@ $$
 **EPIDCilent**：充电认证客户端与ui设计
 
 > 双击`./code/EPIDCilent/EPID.sln`运行源码
+
 > 在Realease模式下运行！
+
 > 生成客户端exe可执行文件保存于`.\EPIDCilent\x64\Release`
 
 **EPIDServer**:充电认证服务端与ui设计
 
 > 双击`./code/EPIDServer/EPID.sln`运行源码
+
 > 在Debug模式下运行！
+
 > 生成客户端exe可执行文件保存于`.\EPIDServer\x64\Debug`
 
 ```
-注意1：若需要关闭客户端服务端运行时的cmd命令窗口，可进行如下操作： 
+注意1
+
+若需要关闭客户端服务端运行时的cmd命令窗口，可进行如下操作： 
 server.cpp(16行)修改#define SHOWCONSOLES 0
 cilent.cpp(20行)修改#define SHOWCONSOLES 0
 若需要重新开启cmd命令窗口显示，修改为1即可。
 
-注意2：由于群签名中为线性表管理，仅1人时无法进行群签名，需要运行两个以上客户端
+注意2
+
+由于群签名中为线性表管理，仅1人时无法进行群签名，需要运行两个以上客户端
 可执行文件。
 ```
 
