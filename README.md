@@ -1,5 +1,7 @@
 # PQSM4-EPID
 
+（此文档仅简略提及应用技术和引用文献）
+
 ## 应用背景
 
 基于后量子隐私增强保护的电动汽车充电认证方案(Post-Quantum SM4 on Enhanced Privacy ID)
