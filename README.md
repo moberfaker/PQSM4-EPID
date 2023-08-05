@@ -78,6 +78,7 @@ $$
 
 </center>
 
+<<<<<<< HEAD
 > ![PQSM4签名长度优化(单位KB)](picture/PQSM4签名长度优化.jpg "PQSM4签名长度优化")
 
 <center>
@@ -93,6 +94,17 @@ $$
 ###### PQSM4签名时间优化(单位ms)
 
 </center>
+=======
+##### PQSM4签名长度优化(单位KB)
+
+> ![PQSM4签名长度优化(单位KB)](picture/PQSM4签名长度优化.jpg "PQSM4签名长度优化")
+
+##### PQSM4签名时间优化(单位ms)
+
+> ![PQSM4签名时间优化(单位ms)](picture/PQSM4签名时间优化.jpg "PQSM4签名时间优化")
+
+##### PQSM4验证时间优化(单位ms)
+>>>>>>> aba18c13fab30d5b0e6e68db8ed27f8b9df14003
 
 > ![PQSM4验证时间优化(单位ms)](picture/PQSM4验证时间优化.jpg "PQSM4验证时间优化")
 
@@ -144,11 +156,15 @@ $$
 
 相较于Dan Boneh等人提出的原EPID框架，本作品更加适用于小范围的物联网应用场景。在同样的密码学原语基础上，我们的方案具有相对更短的证明大小和验证时间、更加简洁的交互过程和更强的成员隐私性。
 
+<<<<<<< HEAD
 > ![PQSM4-EPID签名长度与成员大小关系(单位KB)](picture/PQSM4-EPID签名长度与成员大小关系.jpg "PQSM4-EPID签名长度与成员大小关系")
 
 <center>
 
 ###### PQSM4-EPID签名长度与成员大小关系(单位KB)
+=======
+##### PQSM4-EPID签名长度与成员大小关系(单位KB)
+>>>>>>> aba18c13fab30d5b0e6e68db8ed27f8b9df14003
 
 </center>
 
@@ -156,7 +172,7 @@ $$
 
 <center>
 
-###### PQSM4-EPID签名时间与成员大小关系(单位ms)
+##### PQSM4-EPID签名时间与成员大小关系(单位ms)
 
 </center>
 
@@ -164,7 +180,7 @@ $$
 
 <center>
 
-###### PQSM4-EPID验证时间与成员大小关系(单位ms)
+##### PQSM4-EPID验证时间与成员大小关系(单位ms)
 
 </center>
 
@@ -178,6 +194,7 @@ $$
 
 > ![协议框架](picture/协议框架.jpg "协议框架")
 
+<<<<<<< HEAD
 <center>
 
 ###### 协议框架
@@ -185,6 +202,9 @@ $$
 </center>
 
 > ![认证方案运行模式](picture/认证方案运行模式.jpg "认证方案运行模式")
+=======
+> ![认证方案运行模式](picture/认证方案运行模式.png "认证方案运行模式")
+>>>>>>> aba18c13fab30d5b0e6e68db8ed27f8b9df14003
 
 <center>
 
@@ -196,7 +216,7 @@ $$
 
 我们通过c++的winSock2.h库实现网络信息传输功能，使用EasyX库构建ui交互界面。下图为TCP框架设计图：
 
-> ![TCP框架](picture/TCP框架.jpg "TCP框架")
+> ![TCP框架](picture/TCP框架图.jpg "TCP框架")
 
 <center>
 
